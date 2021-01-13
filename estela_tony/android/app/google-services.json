@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "546696160996",
+    "firebase_url": "https://estela-tony-7a6b4.firebaseio.com",
+    "project_id": "estela-tony-7a6b4",
+    "storage_bucket": "estela-tony-7a6b4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:546696160996:android:a4f02f955c9f3c4937eef1",
+        "android_client_info": {
+          "package_name": "com.tonylee.estela_tony"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "546696160996-t7elagf6vjngc8o6051ku9k5e54g3ufo.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCf-o2T1748Yf3u67wsAC8ErnE3cnAkiXc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "546696160996-t7elagf6vjngc8o6051ku9k5e54g3ufo.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

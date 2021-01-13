@@ -1,0 +1,672 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="be5fad37-ff0a-41ad-a841-0d81fe18a12f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.dart_tool/package_config.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.flutter-plugins-dependencies" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/Clima-flutter.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Dart_Packages.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Dart_SDK.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Flutter_Plugins.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.metadata" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/app/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/app/src/debug/AndroidManifest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/app/src/main/ic_launcher-web.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/app/src/main/java/co/appbrewery/clima/MainActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/app/src/main/java/io/flutter/plugins/GeneratedPluginRegistrant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/app/src/main/res/drawable/ic_launcher_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/app/src/main/res/drawable/launch_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/app/src/main/res/mipmap-hdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/app/src/main/res/mipmap-hdpi/ic_launcher_foreground.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/app/src/main/res/mipmap-hdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/app/src/main/res/mipmap-mdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/app/src/main/res/mipmap-mdpi/ic_launcher_foreground.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/app/src/main/res/mipmap-mdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/app/src/main/res/mipmap-xhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/app/src/main/res/mipmap-xhdpi/ic_launcher_foreground.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/app/src/main/res/mipmap-xxhdpi/ic_launcher_foreground.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/app/src/main/res/mipmap-xxxhdpi/ic_launcher_foreground.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/app/src/main/res/values/styles.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/app/src/profile/AndroidManifest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/gradle.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/local.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/SpartanMB-Black.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/city_background.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/location_background.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ios/Flutter/.last_build_id" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ios/Flutter/AppFrameworkInfo.plist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ios/Flutter/Debug.xcconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ios/Flutter/Flutter.podspec" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ios/Flutter/Generated.xcconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ios/Flutter/Release.xcconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ios/Flutter/flutter_export_environment.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ios/Podfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ios/Podfile.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ios/Runner.xcodeproj/project.pbxproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ios/Runner.xcodeproj/project.xcworkspace/contents.xcworkspacedata" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ios/Runner.xcodeproj/xcshareddata/xcschemes/Runner.xcscheme" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ios/Runner.xcworkspace/contents.xcworkspacedata" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ios/Runner.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ios/Runner/AppDelegate.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ios/Runner/Assets.xcassets/AppIcon.appiconset/100.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ios/Runner/Assets.xcassets/AppIcon.appiconset/1024.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ios/Runner/Assets.xcassets/AppIcon.appiconset/114.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ios/Runner/Assets.xcassets/AppIcon.appiconset/120.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ios/Runner/Assets.xcassets/AppIcon.appiconset/144.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ios/Runner/Assets.xcassets/AppIcon.appiconset/152.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ios/Runner/Assets.xcassets/AppIcon.appiconset/167.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ios/Runner/Assets.xcassets/AppIcon.appiconset/180.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ios/Runner/Assets.xcassets/AppIcon.appiconset/20.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ios/Runner/Assets.xcassets/AppIcon.appiconset/29.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ios/Runner/Assets.xcassets/AppIcon.appiconset/40.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ios/Runner/Assets.xcassets/AppIcon.appiconset/50.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ios/Runner/Assets.xcassets/AppIcon.appiconset/57.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ios/Runner/Assets.xcassets/AppIcon.appiconset/58.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ios/Runner/Assets.xcassets/AppIcon.appiconset/60.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ios/Runner/Assets.xcassets/AppIcon.appiconset/72.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ios/Runner/Assets.xcassets/AppIcon.appiconset/76.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ios/Runner/Assets.xcassets/AppIcon.appiconset/80.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ios/Runner/Assets.xcassets/AppIcon.appiconset/87.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ios/Runner/Assets.xcassets/AppIcon.appiconset/Contents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ios/Runner/Assets.xcassets/LaunchImage.imageset/Contents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ios/Runner/Assets.xcassets/LaunchImage.imageset/LaunchImage.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ios/Runner/Assets.xcassets/LaunchImage.imageset/LaunchImage@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ios/Runner/Assets.xcassets/LaunchImage.imageset/LaunchImage@3x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ios/Runner/Assets.xcassets/LaunchImage.imageset/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ios/Runner/Base.lproj/LaunchScreen.storyboard" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ios/Runner/Base.lproj/Main.storyboard" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ios/Runner/GeneratedPluginRegistrant.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ios/Runner/GeneratedPluginRegistrant.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ios/Runner/Info.plist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ios/Runner/Runner-Bridging-Header.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/main.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/screens/city_screen.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/screens/loading_screen.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/screens/location_screen.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/services/location.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/services/networking.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/services/weather.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/utilities/constants.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pubspec.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bitcoin-ticker-flutter/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bitcoin-ticker-flutter/.metadata" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bitcoin-ticker-flutter/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bitcoin-ticker-flutter/android/app/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bitcoin-ticker-flutter/android/app/src/debug/AndroidManifest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bitcoin-ticker-flutter/android/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bitcoin-ticker-flutter/android/app/src/main/ic_launcher-web.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bitcoin-ticker-flutter/android/app/src/main/java/co/appbrewery/bitcoin_ticker/MainActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bitcoin-ticker-flutter/android/app/src/main/res/drawable/ic_launcher_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bitcoin-ticker-flutter/android/app/src/main/res/drawable/launch_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bitcoin-ticker-flutter/android/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bitcoin-ticker-flutter/android/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bitcoin-ticker-flutter/android/app/src/main/res/mipmap-hdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bitcoin-ticker-flutter/android/app/src/main/res/mipmap-hdpi/ic_launcher_foreground.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bitcoin-ticker-flutter/android/app/src/main/res/mipmap-hdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bitcoin-ticker-flutter/android/app/src/main/res/mipmap-mdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bitcoin-ticker-flutter/android/app/src/main/res/mipmap-mdpi/ic_launcher_foreground.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bitcoin-ticker-flutter/android/app/src/main/res/mipmap-mdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bitcoin-ticker-flutter/android/app/src/main/res/mipmap-xhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bitcoin-ticker-flutter/android/app/src/main/res/mipmap-xhdpi/ic_launcher_foreground.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bitcoin-ticker-flutter/android/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bitcoin-ticker-flutter/android/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bitcoin-ticker-flutter/android/app/src/main/res/mipmap-xxhdpi/ic_launcher_foreground.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bitcoin-ticker-flutter/android/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bitcoin-ticker-flutter/android/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bitcoin-ticker-flutter/android/app/src/main/res/mipmap-xxxhdpi/ic_launcher_foreground.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bitcoin-ticker-flutter/android/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bitcoin-ticker-flutter/android/app/src/main/res/values/styles.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bitcoin-ticker-flutter/android/app/src/profile/AndroidManifest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bitcoin-ticker-flutter/android/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bitcoin-ticker-flutter/android/gradle.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bitcoin-ticker-flutter/android/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bitcoin-ticker-flutter/android/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bitcoin-ticker-flutter/ios/Flutter/AppFrameworkInfo.plist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bitcoin-ticker-flutter/ios/Flutter/Debug.xcconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bitcoin-ticker-flutter/ios/Flutter/Release.xcconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bitcoin-ticker-flutter/ios/Flutter/flutter_export_environment.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bitcoin-ticker-flutter/ios/Runner.xcodeproj/project.pbxproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bitcoin-ticker-flutter/ios/Runner.xcodeproj/project.xcworkspace/contents.xcworkspacedata" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bitcoin-ticker-flutter/ios/Runner.xcodeproj/xcshareddata/xcschemes/Runner.xcscheme" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bitcoin-ticker-flutter/ios/Runner.xcworkspace/contents.xcworkspacedata" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bitcoin-ticker-flutter/ios/Runner/AppDelegate.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bitcoin-ticker-flutter/ios/Runner/Assets.xcassets/AppIcon.appiconset/100.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bitcoin-ticker-flutter/ios/Runner/Assets.xcassets/AppIcon.appiconset/1024.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bitcoin-ticker-flutter/ios/Runner/Assets.xcassets/AppIcon.appiconset/114.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bitcoin-ticker-flutter/ios/Runner/Assets.xcassets/AppIcon.appiconset/120.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bitcoin-ticker-flutter/ios/Runner/Assets.xcassets/AppIcon.appiconset/144.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bitcoin-ticker-flutter/ios/Runner/Assets.xcassets/AppIcon.appiconset/152.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bitcoin-ticker-flutter/ios/Runner/Assets.xcassets/AppIcon.appiconset/167.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bitcoin-ticker-flutter/ios/Runner/Assets.xcassets/AppIcon.appiconset/180.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bitcoin-ticker-flutter/ios/Runner/Assets.xcassets/AppIcon.appiconset/20.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bitcoin-ticker-flutter/ios/Runner/Assets.xcassets/AppIcon.appiconset/29.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bitcoin-ticker-flutter/ios/Runner/Assets.xcassets/AppIcon.appiconset/40.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bitcoin-ticker-flutter/ios/Runner/Assets.xcassets/AppIcon.appiconset/50.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bitcoin-ticker-flutter/ios/Runner/Assets.xcassets/AppIcon.appiconset/57.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bitcoin-ticker-flutter/ios/Runner/Assets.xcassets/AppIcon.appiconset/58.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bitcoin-ticker-flutter/ios/Runner/Assets.xcassets/AppIcon.appiconset/60.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bitcoin-ticker-flutter/ios/Runner/Assets.xcassets/AppIcon.appiconset/72.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bitcoin-ticker-flutter/ios/Runner/Assets.xcassets/AppIcon.appiconset/76.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bitcoin-ticker-flutter/ios/Runner/Assets.xcassets/AppIcon.appiconset/80.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bitcoin-ticker-flutter/ios/Runner/Assets.xcassets/AppIcon.appiconset/87.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bitcoin-ticker-flutter/ios/Runner/Assets.xcassets/AppIcon.appiconset/Contents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bitcoin-ticker-flutter/ios/Runner/Assets.xcassets/LaunchImage.imageset/Contents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bitcoin-ticker-flutter/ios/Runner/Assets.xcassets/LaunchImage.imageset/LaunchImage.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bitcoin-ticker-flutter/ios/Runner/Assets.xcassets/LaunchImage.imageset/LaunchImage@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bitcoin-ticker-flutter/ios/Runner/Assets.xcassets/LaunchImage.imageset/LaunchImage@3x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bitcoin-ticker-flutter/ios/Runner/Assets.xcassets/LaunchImage.imageset/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bitcoin-ticker-flutter/ios/Runner/Base.lproj/LaunchScreen.storyboard" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bitcoin-ticker-flutter/ios/Runner/Base.lproj/Main.storyboard" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bitcoin-ticker-flutter/ios/Runner/Info.plist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bitcoin-ticker-flutter/ios/Runner/Runner-Bridging-Header.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bitcoin-ticker-flutter/lib/coin_data.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bitcoin-ticker-flutter/lib/main.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bitcoin-ticker-flutter/lib/price_screen.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bitcoin-ticker-flutter/lib/reusableCard.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bitcoin-ticker-flutter/pubspec.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bmi-calculator-flutter/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bmi-calculator-flutter/.metadata" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bmi-calculator-flutter/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bmi-calculator-flutter/android/app/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bmi-calculator-flutter/android/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bmi-calculator-flutter/android/app/src/main/java/co/appbrewery/bmicalculator/MainActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bmi-calculator-flutter/android/app/src/main/res/drawable/launch_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bmi-calculator-flutter/android/app/src/main/res/mipmap-hdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bmi-calculator-flutter/android/app/src/main/res/mipmap-mdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bmi-calculator-flutter/android/app/src/main/res/mipmap-xhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bmi-calculator-flutter/android/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bmi-calculator-flutter/android/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bmi-calculator-flutter/android/app/src/main/res/values/styles.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bmi-calculator-flutter/android/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bmi-calculator-flutter/android/gradle.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bmi-calculator-flutter/android/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bmi-calculator-flutter/android/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bmi-calculator-flutter/ios/Flutter/.last_build_id" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bmi-calculator-flutter/ios/Flutter/AppFrameworkInfo.plist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bmi-calculator-flutter/ios/Flutter/Debug.xcconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bmi-calculator-flutter/ios/Flutter/Flutter.podspec" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bmi-calculator-flutter/ios/Flutter/Release.xcconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bmi-calculator-flutter/ios/Flutter/flutter_export_environment.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bmi-calculator-flutter/ios/Runner.xcodeproj/project.pbxproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bmi-calculator-flutter/ios/Runner.xcodeproj/project.xcworkspace/contents.xcworkspacedata" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bmi-calculator-flutter/ios/Runner.xcodeproj/xcshareddata/xcschemes/Runner.xcscheme" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bmi-calculator-flutter/ios/Runner.xcworkspace/contents.xcworkspacedata" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bmi-calculator-flutter/ios/Runner.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bmi-calculator-flutter/ios/Runner/AppDelegate.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bmi-calculator-flutter/ios/Runner/AppDelegate.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bmi-calculator-flutter/ios/Runner/Assets.xcassets/AppIcon.appiconset/Contents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bmi-calculator-flutter/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-1024x1024@1x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bmi-calculator-flutter/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-20x20@1x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bmi-calculator-flutter/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-20x20@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bmi-calculator-flutter/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-20x20@3x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bmi-calculator-flutter/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-29x29@1x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bmi-calculator-flutter/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-29x29@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bmi-calculator-flutter/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-29x29@3x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bmi-calculator-flutter/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-40x40@1x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bmi-calculator-flutter/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-40x40@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bmi-calculator-flutter/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-40x40@3x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bmi-calculator-flutter/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-60x60@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bmi-calculator-flutter/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-60x60@3x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bmi-calculator-flutter/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-76x76@1x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bmi-calculator-flutter/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-76x76@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bmi-calculator-flutter/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-83.5x83.5@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bmi-calculator-flutter/ios/Runner/Assets.xcassets/LaunchImage.imageset/Contents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bmi-calculator-flutter/ios/Runner/Assets.xcassets/LaunchImage.imageset/LaunchImage.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bmi-calculator-flutter/ios/Runner/Assets.xcassets/LaunchImage.imageset/LaunchImage@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bmi-calculator-flutter/ios/Runner/Assets.xcassets/LaunchImage.imageset/LaunchImage@3x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bmi-calculator-flutter/ios/Runner/Assets.xcassets/LaunchImage.imageset/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bmi-calculator-flutter/ios/Runner/Base.lproj/LaunchScreen.storyboard" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bmi-calculator-flutter/ios/Runner/Base.lproj/Main.storyboard" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bmi-calculator-flutter/ios/Runner/Info.plist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bmi-calculator-flutter/ios/Runner/main.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bmi-calculator-flutter/lib/calculator_brain.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bmi-calculator-flutter/lib/components/bottom_button.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bmi-calculator-flutter/lib/components/icon_content.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bmi-calculator-flutter/lib/components/reusable_card.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bmi-calculator-flutter/lib/components/round_icon_button.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bmi-calculator-flutter/lib/constants.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bmi-calculator-flutter/lib/main.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bmi-calculator-flutter/lib/screens/input_page.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bmi-calculator-flutter/lib/screens/results_page.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bmi-calculator-flutter/pubspec.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../destini-challenge-flutter/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../destini-challenge-flutter/.metadata" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../destini-challenge-flutter/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../destini-challenge-flutter/android/app/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../destini-challenge-flutter/android/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../destini-challenge-flutter/android/app/src/main/ic_launcher-web.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../destini-challenge-flutter/android/app/src/main/java/co/appbrewery/destinichallengestarting/MainActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../destini-challenge-flutter/android/app/src/main/res/drawable/ic_launcher_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../destini-challenge-flutter/android/app/src/main/res/drawable/launch_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../destini-challenge-flutter/android/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../destini-challenge-flutter/android/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../destini-challenge-flutter/android/app/src/main/res/mipmap-hdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../destini-challenge-flutter/android/app/src/main/res/mipmap-hdpi/ic_launcher_foreground.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../destini-challenge-flutter/android/app/src/main/res/mipmap-hdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../destini-challenge-flutter/android/app/src/main/res/mipmap-mdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../destini-challenge-flutter/android/app/src/main/res/mipmap-mdpi/ic_launcher_foreground.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../destini-challenge-flutter/android/app/src/main/res/mipmap-mdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../destini-challenge-flutter/android/app/src/main/res/mipmap-xhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../destini-challenge-flutter/android/app/src/main/res/mipmap-xhdpi/ic_launcher_foreground.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../destini-challenge-flutter/android/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../destini-challenge-flutter/android/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../destini-challenge-flutter/android/app/src/main/res/mipmap-xxhdpi/ic_launcher_foreground.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../destini-challenge-flutter/android/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../destini-challenge-flutter/android/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../destini-challenge-flutter/android/app/src/main/res/mipmap-xxxhdpi/ic_launcher_foreground.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../destini-challenge-flutter/android/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../destini-challenge-flutter/android/app/src/main/res/values/styles.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../destini-challenge-flutter/android/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../destini-challenge-flutter/android/gradle.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../destini-challenge-flutter/android/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../destini-challenge-flutter/android/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../destini-challenge-flutter/images/background.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../destini-challenge-flutter/ios/Flutter/.last_build_id" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../destini-challenge-flutter/ios/Flutter/AppFrameworkInfo.plist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../destini-challenge-flutter/ios/Flutter/Debug.xcconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../destini-challenge-flutter/ios/Flutter/Flutter.podspec" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../destini-challenge-flutter/ios/Flutter/Release.xcconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../destini-challenge-flutter/ios/Flutter/flutter_export_environment.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../destini-challenge-flutter/ios/Runner.xcodeproj/project.pbxproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../destini-challenge-flutter/ios/Runner.xcodeproj/project.xcworkspace/contents.xcworkspacedata" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../destini-challenge-flutter/ios/Runner.xcodeproj/xcshareddata/xcschemes/Runner.xcscheme" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../destini-challenge-flutter/ios/Runner.xcworkspace/contents.xcworkspacedata" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../destini-challenge-flutter/ios/Runner/AppDelegate.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../destini-challenge-flutter/ios/Runner/AppDelegate.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../destini-challenge-flutter/ios/Runner/Assets.xcassets/AppIcon.appiconset/Contents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../destini-challenge-flutter/ios/Runner/Assets.xcassets/LaunchImage.imageset/Contents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../destini-challenge-flutter/ios/Runner/Assets.xcassets/LaunchImage.imageset/LaunchImage.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../destini-challenge-flutter/ios/Runner/Assets.xcassets/LaunchImage.imageset/LaunchImage@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../destini-challenge-flutter/ios/Runner/Assets.xcassets/LaunchImage.imageset/LaunchImage@3x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../destini-challenge-flutter/ios/Runner/Assets.xcassets/LaunchImage.imageset/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../destini-challenge-flutter/ios/Runner/Base.lproj/LaunchScreen.storyboard" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../destini-challenge-flutter/ios/Runner/Base.lproj/Main.storyboard" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../destini-challenge-flutter/ios/Runner/Info.plist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../destini-challenge-flutter/ios/Runner/main.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../destini-challenge-flutter/lib/main.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../destini-challenge-flutter/lib/story.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../destini-challenge-flutter/lib/story_brain.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../destini-challenge-flutter/pubspec.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dicee-flutter/ios/Flutter/.last_build_id" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dicee-flutter/ios/Runner.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../magic-8-ball-flutter/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../magic-8-ball-flutter/.metadata" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../magic-8-ball-flutter/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../magic-8-ball-flutter/android/app/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../magic-8-ball-flutter/android/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../magic-8-ball-flutter/android/app/src/main/ic_launcher-web.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../magic-8-ball-flutter/android/app/src/main/java/co/appbrewery/magic8ball/MainActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../magic-8-ball-flutter/android/app/src/main/res/drawable/ic_launcher_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../magic-8-ball-flutter/android/app/src/main/res/drawable/launch_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../magic-8-ball-flutter/android/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../magic-8-ball-flutter/android/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../magic-8-ball-flutter/android/app/src/main/res/mipmap-hdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../magic-8-ball-flutter/android/app/src/main/res/mipmap-hdpi/ic_launcher_foreground.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../magic-8-ball-flutter/android/app/src/main/res/mipmap-hdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../magic-8-ball-flutter/android/app/src/main/res/mipmap-mdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../magic-8-ball-flutter/android/app/src/main/res/mipmap-mdpi/ic_launcher_foreground.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../magic-8-ball-flutter/android/app/src/main/res/mipmap-mdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../magic-8-ball-flutter/android/app/src/main/res/mipmap-xhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../magic-8-ball-flutter/android/app/src/main/res/mipmap-xhdpi/ic_launcher_foreground.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../magic-8-ball-flutter/android/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../magic-8-ball-flutter/android/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../magic-8-ball-flutter/android/app/src/main/res/mipmap-xxhdpi/ic_launcher_foreground.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../magic-8-ball-flutter/android/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../magic-8-ball-flutter/android/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../magic-8-ball-flutter/android/app/src/main/res/mipmap-xxxhdpi/ic_launcher_foreground.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../magic-8-ball-flutter/android/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../magic-8-ball-flutter/android/app/src/main/res/values/styles.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../magic-8-ball-flutter/android/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../magic-8-ball-flutter/android/gradle.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../magic-8-ball-flutter/android/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../magic-8-ball-flutter/android/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../magic-8-ball-flutter/images/ball1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../magic-8-ball-flutter/images/ball2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../magic-8-ball-flutter/images/ball3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../magic-8-ball-flutter/images/ball4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../magic-8-ball-flutter/images/ball5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../magic-8-ball-flutter/ios/Flutter/.last_build_id" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../magic-8-ball-flutter/ios/Flutter/AppFrameworkInfo.plist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../magic-8-ball-flutter/ios/Flutter/Debug.xcconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../magic-8-ball-flutter/ios/Flutter/Flutter.podspec" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../magic-8-ball-flutter/ios/Flutter/Release.xcconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../magic-8-ball-flutter/ios/Flutter/flutter_export_environment.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../magic-8-ball-flutter/ios/Runner.xcodeproj/project.pbxproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../magic-8-ball-flutter/ios/Runner.xcodeproj/project.xcworkspace/contents.xcworkspacedata" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../magic-8-ball-flutter/ios/Runner.xcodeproj/xcshareddata/xcschemes/Runner.xcscheme" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../magic-8-ball-flutter/ios/Runner.xcworkspace/contents.xcworkspacedata" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../magic-8-ball-flutter/ios/Runner.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../magic-8-ball-flutter/ios/Runner/AppDelegate.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../magic-8-ball-flutter/ios/Runner/AppDelegate.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../magic-8-ball-flutter/ios/Runner/Assets.xcassets/AppIcon.appiconset/100.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../magic-8-ball-flutter/ios/Runner/Assets.xcassets/AppIcon.appiconset/1024.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../magic-8-ball-flutter/ios/Runner/Assets.xcassets/AppIcon.appiconset/114.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../magic-8-ball-flutter/ios/Runner/Assets.xcassets/AppIcon.appiconset/120.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../magic-8-ball-flutter/ios/Runner/Assets.xcassets/AppIcon.appiconset/144.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../magic-8-ball-flutter/ios/Runner/Assets.xcassets/AppIcon.appiconset/152.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../magic-8-ball-flutter/ios/Runner/Assets.xcassets/AppIcon.appiconset/167.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../magic-8-ball-flutter/ios/Runner/Assets.xcassets/AppIcon.appiconset/180.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../magic-8-ball-flutter/ios/Runner/Assets.xcassets/AppIcon.appiconset/20.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../magic-8-ball-flutter/ios/Runner/Assets.xcassets/AppIcon.appiconset/29.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../magic-8-ball-flutter/ios/Runner/Assets.xcassets/AppIcon.appiconset/40.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../magic-8-ball-flutter/ios/Runner/Assets.xcassets/AppIcon.appiconset/50.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../magic-8-ball-flutter/ios/Runner/Assets.xcassets/AppIcon.appiconset/57.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../magic-8-ball-flutter/ios/Runner/Assets.xcassets/AppIcon.appiconset/58.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../magic-8-ball-flutter/ios/Runner/Assets.xcassets/AppIcon.appiconset/60.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../magic-8-ball-flutter/ios/Runner/Assets.xcassets/AppIcon.appiconset/72.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../magic-8-ball-flutter/ios/Runner/Assets.xcassets/AppIcon.appiconset/76.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../magic-8-ball-flutter/ios/Runner/Assets.xcassets/AppIcon.appiconset/80.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../magic-8-ball-flutter/ios/Runner/Assets.xcassets/AppIcon.appiconset/87.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../magic-8-ball-flutter/ios/Runner/Assets.xcassets/AppIcon.appiconset/Contents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../magic-8-ball-flutter/ios/Runner/Assets.xcassets/LaunchImage.imageset/Contents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../magic-8-ball-flutter/ios/Runner/Assets.xcassets/LaunchImage.imageset/LaunchImage.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../magic-8-ball-flutter/ios/Runner/Assets.xcassets/LaunchImage.imageset/LaunchImage@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../magic-8-ball-flutter/ios/Runner/Assets.xcassets/LaunchImage.imageset/LaunchImage@3x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../magic-8-ball-flutter/ios/Runner/Assets.xcassets/LaunchImage.imageset/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../magic-8-ball-flutter/ios/Runner/Base.lproj/LaunchScreen.storyboard" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../magic-8-ball-flutter/ios/Runner/Base.lproj/Main.storyboard" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../magic-8-ball-flutter/ios/Runner/Info.plist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../magic-8-ball-flutter/ios/Runner/main.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../magic-8-ball-flutter/lib/main.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../magic-8-ball-flutter/pubspec.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../quizzler-flutter/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../quizzler-flutter/.metadata" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../quizzler-flutter/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../quizzler-flutter/android/app/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../quizzler-flutter/android/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../quizzler-flutter/android/app/src/main/ic_launcher-web.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../quizzler-flutter/android/app/src/main/java/co/appbrewery/quizzler/MainActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../quizzler-flutter/android/app/src/main/res/drawable/ic_launcher_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../quizzler-flutter/android/app/src/main/res/drawable/launch_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../quizzler-flutter/android/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../quizzler-flutter/android/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../quizzler-flutter/android/app/src/main/res/mipmap-hdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../quizzler-flutter/android/app/src/main/res/mipmap-hdpi/ic_launcher_foreground.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../quizzler-flutter/android/app/src/main/res/mipmap-hdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../quizzler-flutter/android/app/src/main/res/mipmap-mdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../quizzler-flutter/android/app/src/main/res/mipmap-mdpi/ic_launcher_foreground.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../quizzler-flutter/android/app/src/main/res/mipmap-mdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../quizzler-flutter/android/app/src/main/res/mipmap-xhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../quizzler-flutter/android/app/src/main/res/mipmap-xhdpi/ic_launcher_foreground.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../quizzler-flutter/android/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../quizzler-flutter/android/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../quizzler-flutter/android/app/src/main/res/mipmap-xxhdpi/ic_launcher_foreground.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../quizzler-flutter/android/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../quizzler-flutter/android/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../quizzler-flutter/android/app/src/main/res/mipmap-xxxhdpi/ic_launcher_foreground.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../quizzler-flutter/android/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../quizzler-flutter/android/app/src/main/res/values/styles.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../quizzler-flutter/android/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../quizzler-flutter/android/gradle.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../quizzler-flutter/android/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../quizzler-flutter/android/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../quizzler-flutter/ios/Flutter/.last_build_id" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../quizzler-flutter/ios/Flutter/AppFrameworkInfo.plist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../quizzler-flutter/ios/Flutter/Debug.xcconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../quizzler-flutter/ios/Flutter/Flutter.podspec" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../quizzler-flutter/ios/Flutter/Release.xcconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../quizzler-flutter/ios/Flutter/flutter_export_environment.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../quizzler-flutter/ios/Runner.xcodeproj/project.pbxproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../quizzler-flutter/ios/Runner.xcodeproj/project.xcworkspace/contents.xcworkspacedata" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../quizzler-flutter/ios/Runner.xcodeproj/xcshareddata/xcschemes/Runner.xcscheme" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../quizzler-flutter/ios/Runner.xcworkspace/contents.xcworkspacedata" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../quizzler-flutter/ios/Runner/AppDelegate.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../quizzler-flutter/ios/Runner/AppDelegate.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../quizzler-flutter/ios/Runner/Assets.xcassets/AppIcon.appiconset/100.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../quizzler-flutter/ios/Runner/Assets.xcassets/AppIcon.appiconset/1024.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../quizzler-flutter/ios/Runner/Assets.xcassets/AppIcon.appiconset/114.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../quizzler-flutter/ios/Runner/Assets.xcassets/AppIcon.appiconset/120.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../quizzler-flutter/ios/Runner/Assets.xcassets/AppIcon.appiconset/144.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../quizzler-flutter/ios/Runner/Assets.xcassets/AppIcon.appiconset/152.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../quizzler-flutter/ios/Runner/Assets.xcassets/AppIcon.appiconset/167.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../quizzler-flutter/ios/Runner/Assets.xcassets/AppIcon.appiconset/180.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../quizzler-flutter/ios/Runner/Assets.xcassets/AppIcon.appiconset/20.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../quizzler-flutter/ios/Runner/Assets.xcassets/AppIcon.appiconset/29.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../quizzler-flutter/ios/Runner/Assets.xcassets/AppIcon.appiconset/40.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../quizzler-flutter/ios/Runner/Assets.xcassets/AppIcon.appiconset/50.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../quizzler-flutter/ios/Runner/Assets.xcassets/AppIcon.appiconset/57.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../quizzler-flutter/ios/Runner/Assets.xcassets/AppIcon.appiconset/58.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../quizzler-flutter/ios/Runner/Assets.xcassets/AppIcon.appiconset/60.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../quizzler-flutter/ios/Runner/Assets.xcassets/AppIcon.appiconset/72.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../quizzler-flutter/ios/Runner/Assets.xcassets/AppIcon.appiconset/76.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../quizzler-flutter/ios/Runner/Assets.xcassets/AppIcon.appiconset/80.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../quizzler-flutter/ios/Runner/Assets.xcassets/AppIcon.appiconset/87.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../quizzler-flutter/ios/Runner/Assets.xcassets/AppIcon.appiconset/Contents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../quizzler-flutter/ios/Runner/Assets.xcassets/LaunchImage.imageset/Contents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../quizzler-flutter/ios/Runner/Assets.xcassets/LaunchImage.imageset/LaunchImage.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../quizzler-flutter/ios/Runner/Assets.xcassets/LaunchImage.imageset/LaunchImage@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../quizzler-flutter/ios/Runner/Assets.xcassets/LaunchImage.imageset/LaunchImage@3x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../quizzler-flutter/ios/Runner/Assets.xcassets/LaunchImage.imageset/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../quizzler-flutter/ios/Runner/Base.lproj/LaunchScreen.storyboard" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../quizzler-flutter/ios/Runner/Base.lproj/Main.storyboard" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../quizzler-flutter/ios/Runner/Info.plist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../quizzler-flutter/ios/Runner/main.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../quizzler-flutter/lib/main.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../quizzler-flutter/lib/question.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../quizzler-flutter/lib/quiz_brain.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../quizzler-flutter/pubspec.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xylophone-flutter/.flutter-plugins-dependencies" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xylophone-flutter/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xylophone-flutter/.metadata" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xylophone-flutter/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xylophone-flutter/android/app/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xylophone-flutter/android/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xylophone-flutter/android/app/src/main/ic_launcher-web.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xylophone-flutter/android/app/src/main/java/co/appbrewery/xylophone/MainActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xylophone-flutter/android/app/src/main/res/drawable/ic_launcher_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xylophone-flutter/android/app/src/main/res/drawable/launch_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xylophone-flutter/android/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xylophone-flutter/android/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xylophone-flutter/android/app/src/main/res/mipmap-hdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xylophone-flutter/android/app/src/main/res/mipmap-hdpi/ic_launcher_foreground.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xylophone-flutter/android/app/src/main/res/mipmap-hdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xylophone-flutter/android/app/src/main/res/mipmap-mdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xylophone-flutter/android/app/src/main/res/mipmap-mdpi/ic_launcher_foreground.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xylophone-flutter/android/app/src/main/res/mipmap-mdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xylophone-flutter/android/app/src/main/res/mipmap-xhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xylophone-flutter/android/app/src/main/res/mipmap-xhdpi/ic_launcher_foreground.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xylophone-flutter/android/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xylophone-flutter/android/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xylophone-flutter/android/app/src/main/res/mipmap-xxhdpi/ic_launcher_foreground.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xylophone-flutter/android/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xylophone-flutter/android/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xylophone-flutter/android/app/src/main/res/mipmap-xxxhdpi/ic_launcher_foreground.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xylophone-flutter/android/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xylophone-flutter/android/app/src/main/res/values/styles.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xylophone-flutter/android/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xylophone-flutter/android/gradle.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xylophone-flutter/android/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xylophone-flutter/android/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xylophone-flutter/assets/note1.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xylophone-flutter/assets/note2.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xylophone-flutter/assets/note3.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xylophone-flutter/assets/note4.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xylophone-flutter/assets/note5.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xylophone-flutter/assets/note6.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xylophone-flutter/assets/note7.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xylophone-flutter/ios/Flutter/.last_build_id" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xylophone-flutter/ios/Flutter/AppFrameworkInfo.plist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xylophone-flutter/ios/Flutter/Debug.xcconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xylophone-flutter/ios/Flutter/Flutter.podspec" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xylophone-flutter/ios/Flutter/Release.xcconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xylophone-flutter/ios/Flutter/flutter_export_environment.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xylophone-flutter/ios/Podfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xylophone-flutter/ios/Runner.xcodeproj/project.pbxproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xylophone-flutter/ios/Runner.xcodeproj/project.xcworkspace/contents.xcworkspacedata" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xylophone-flutter/ios/Runner.xcodeproj/xcshareddata/xcschemes/Runner.xcscheme" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xylophone-flutter/ios/Runner.xcworkspace/contents.xcworkspacedata" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xylophone-flutter/ios/Runner.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xylophone-flutter/ios/Runner/AppDelegate.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xylophone-flutter/ios/Runner/AppDelegate.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xylophone-flutter/ios/Runner/Assets.xcassets/AppIcon.appiconset/100.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xylophone-flutter/ios/Runner/Assets.xcassets/AppIcon.appiconset/1024.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xylophone-flutter/ios/Runner/Assets.xcassets/AppIcon.appiconset/114.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xylophone-flutter/ios/Runner/Assets.xcassets/AppIcon.appiconset/120.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xylophone-flutter/ios/Runner/Assets.xcassets/AppIcon.appiconset/144.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xylophone-flutter/ios/Runner/Assets.xcassets/AppIcon.appiconset/152.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xylophone-flutter/ios/Runner/Assets.xcassets/AppIcon.appiconset/167.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xylophone-flutter/ios/Runner/Assets.xcassets/AppIcon.appiconset/180.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xylophone-flutter/ios/Runner/Assets.xcassets/AppIcon.appiconset/20.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xylophone-flutter/ios/Runner/Assets.xcassets/AppIcon.appiconset/29.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xylophone-flutter/ios/Runner/Assets.xcassets/AppIcon.appiconset/40.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xylophone-flutter/ios/Runner/Assets.xcassets/AppIcon.appiconset/50.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xylophone-flutter/ios/Runner/Assets.xcassets/AppIcon.appiconset/57.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xylophone-flutter/ios/Runner/Assets.xcassets/AppIcon.appiconset/58.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xylophone-flutter/ios/Runner/Assets.xcassets/AppIcon.appiconset/60.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xylophone-flutter/ios/Runner/Assets.xcassets/AppIcon.appiconset/72.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xylophone-flutter/ios/Runner/Assets.xcassets/AppIcon.appiconset/76.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xylophone-flutter/ios/Runner/Assets.xcassets/AppIcon.appiconset/80.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xylophone-flutter/ios/Runner/Assets.xcassets/AppIcon.appiconset/87.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xylophone-flutter/ios/Runner/Assets.xcassets/AppIcon.appiconset/Contents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xylophone-flutter/ios/Runner/Assets.xcassets/LaunchImage.imageset/Contents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xylophone-flutter/ios/Runner/Assets.xcassets/LaunchImage.imageset/LaunchImage.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xylophone-flutter/ios/Runner/Assets.xcassets/LaunchImage.imageset/LaunchImage@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xylophone-flutter/ios/Runner/Assets.xcassets/LaunchImage.imageset/LaunchImage@3x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xylophone-flutter/ios/Runner/Assets.xcassets/LaunchImage.imageset/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xylophone-flutter/ios/Runner/Base.lproj/LaunchScreen.storyboard" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xylophone-flutter/ios/Runner/Base.lproj/Main.storyboard" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xylophone-flutter/ios/Runner/Info.plist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xylophone-flutter/ios/Runner/main.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xylophone-flutter/lib/main.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xylophone-flutter/pubspec.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dicee-flutter/ios/Flutter/flutter_export_environment.sh" beforeDir="false" afterPath="$PROJECT_DIR$/../dicee-flutter/ios/Flutter/flutter_export_environment.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dicee-flutter/ios/Runner.xcodeproj/project.pbxproj" beforeDir="false" afterPath="$PROJECT_DIR$/../dicee-flutter/ios/Runner.xcodeproj/project.pbxproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dicee-flutter/ios/Runner.xcworkspace/xcshareddata/WorkspaceSettings.xcsettings" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dicee-flutter/ios/Runner/Base.lproj/Main.storyboard" beforeDir="false" afterPath="$PROJECT_DIR$/../dicee-flutter/ios/Runner/Base.lproj/Main.storyboard" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dicee-flutter/lib/main.dart" beforeDir="false" afterPath="$PROJECT_DIR$/../dicee-flutter/lib/main.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mi_card_flutter/ios/Runner.xcodeproj/project.pbxproj" beforeDir="false" afterPath="$PROJECT_DIR$/../mi_card_flutter/ios/Runner.xcodeproj/project.pbxproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mi_card_flutter/ios/Runner.xcworkspace/xcshareddata/WorkspaceSettings.xcsettings" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1hEWHOSHiC94i39WVcdQ4fZJ9kW" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="android.sdk.path" value="$USER_HOME$/Library/Android/sdk" />
+    <property name="dart.analysis.tool.window.force.activate" value="false" />
+    <property name="io.flutter.reload.alreadyRun" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.import" />
+    <property name="show.migrate.to.gradle.popup" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="main.dart" type="FlutterRunConfigurationType" factoryName="Flutter">
+      <option name="filePath" value="$PROJECT_DIR$/lib/main.dart" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="be5fad37-ff0a-41ad-a841-0d81fe18a12f" name="Default Changelist" comment="" />
+      <created>1599576642727</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1599576642727</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="3086" y="245" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1599660896279">
+      <screen x="1440" y="-105" width="2560" height="1080" />
+    </state>
+    <state x="3086" y="245" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1440.900/1440.-105.2560.1080@1440.-105.2560.1080" timestamp="1599660896279" />
+    <state width="1328" height="153" key="GridCell.Tab.0.bottom" timestamp="1599752415302">
+      <screen x="1440" y="-113" width="2560" height="1080" />
+    </state>
+    <state width="664" height="413" key="GridCell.Tab.0.bottom/0.0.1440.900/-460.-1080.2560.1080@-460.-1080.2560.1080" timestamp="1599742860037" />
+    <state width="1581" height="304" key="GridCell.Tab.0.bottom/0.0.1440.900/1440.-105.2560.1080@1440.-105.2560.1080" timestamp="1599664270297" />
+    <state width="1328" height="153" key="GridCell.Tab.0.bottom/0.0.1440.900/1440.-113.2560.1080@1440.-113.2560.1080" timestamp="1599752193844" />
+    <state width="1001" height="304" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1599702413686" />
+    <state width="1581" height="304" key="GridCell.Tab.0.bottom/0.23.1440.877/1440.-105.2560.1080@1440.-105.2560.1080" timestamp="1599664178890" />
+    <state width="1328" height="153" key="GridCell.Tab.0.bottom/0.23.1440.877/1440.-113.2560.1080@1440.-113.2560.1080" timestamp="1599752415302" />
+    <state width="2518" height="304" key="GridCell.Tab.0.bottom/0.23.1920.1057@0.23.1920.1057" timestamp="1599702532695" />
+    <state width="1328" height="153" key="GridCell.Tab.0.center" timestamp="1599752415301">
+      <screen x="1440" y="-113" width="2560" height="1080" />
+    </state>
+    <state width="664" height="413" key="GridCell.Tab.0.center/0.0.1440.900/-460.-1080.2560.1080@-460.-1080.2560.1080" timestamp="1599742860034" />
+    <state width="1581" height="304" key="GridCell.Tab.0.center/0.0.1440.900/1440.-105.2560.1080@1440.-105.2560.1080" timestamp="1599664270294" />
+    <state width="1328" height="153" key="GridCell.Tab.0.center/0.0.1440.900/1440.-113.2560.1080@1440.-113.2560.1080" timestamp="1599752193843" />
+    <state width="1001" height="304" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1599702413685" />
+    <state width="1581" height="304" key="GridCell.Tab.0.center/0.23.1440.877/1440.-105.2560.1080@1440.-105.2560.1080" timestamp="1599664178889" />
+    <state width="1328" height="153" key="GridCell.Tab.0.center/0.23.1440.877/1440.-113.2560.1080@1440.-113.2560.1080" timestamp="1599752415301" />
+    <state width="2518" height="304" key="GridCell.Tab.0.center/0.23.1920.1057@0.23.1920.1057" timestamp="1599702532694" />
+    <state width="1328" height="153" key="GridCell.Tab.0.left" timestamp="1599752415300">
+      <screen x="1440" y="-113" width="2560" height="1080" />
+    </state>
+    <state width="664" height="413" key="GridCell.Tab.0.left/0.0.1440.900/-460.-1080.2560.1080@-460.-1080.2560.1080" timestamp="1599742860031" />
+    <state width="1581" height="304" key="GridCell.Tab.0.left/0.0.1440.900/1440.-105.2560.1080@1440.-105.2560.1080" timestamp="1599664270293" />
+    <state width="1328" height="153" key="GridCell.Tab.0.left/0.0.1440.900/1440.-113.2560.1080@1440.-113.2560.1080" timestamp="1599752193842" />
+    <state width="1001" height="304" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1599702413684" />
+    <state width="1581" height="304" key="GridCell.Tab.0.left/0.23.1440.877/1440.-105.2560.1080@1440.-105.2560.1080" timestamp="1599664178888" />
+    <state width="1328" height="153" key="GridCell.Tab.0.left/0.23.1440.877/1440.-113.2560.1080@1440.-113.2560.1080" timestamp="1599752415300" />
+    <state width="2518" height="304" key="GridCell.Tab.0.left/0.23.1920.1057@0.23.1920.1057" timestamp="1599702532694" />
+    <state width="1328" height="153" key="GridCell.Tab.0.right" timestamp="1599752415302">
+      <screen x="1440" y="-113" width="2560" height="1080" />
+    </state>
+    <state width="664" height="413" key="GridCell.Tab.0.right/0.0.1440.900/-460.-1080.2560.1080@-460.-1080.2560.1080" timestamp="1599742860036" />
+    <state width="1581" height="304" key="GridCell.Tab.0.right/0.0.1440.900/1440.-105.2560.1080@1440.-105.2560.1080" timestamp="1599664270296" />
+    <state width="1328" height="153" key="GridCell.Tab.0.right/0.0.1440.900/1440.-113.2560.1080@1440.-113.2560.1080" timestamp="1599752193843" />
+    <state width="1001" height="304" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1599702413685" />
+    <state width="1581" height="304" key="GridCell.Tab.0.right/0.23.1440.877/1440.-105.2560.1080@1440.-105.2560.1080" timestamp="1599664178890" />
+    <state width="1328" height="153" key="GridCell.Tab.0.right/0.23.1440.877/1440.-113.2560.1080@1440.-113.2560.1080" timestamp="1599752415302" />
+    <state width="2518" height="304" key="GridCell.Tab.0.right/0.23.1920.1057@0.23.1920.1057" timestamp="1599702532695" />
+    <state x="3142" y="153" key="RollbackChangesDialog" timestamp="1599661097875">
+      <screen x="1440" y="-105" width="2560" height="1080" />
+    </state>
+    <state x="3142" y="153" key="RollbackChangesDialog/0.0.1440.900/1440.-105.2560.1080@1440.-105.2560.1080" timestamp="1599661097875" />
+    <state x="830" y="-980" width="1170" height="880" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1599741675777">
+      <screen x="-460" y="-1080" width="2560" height="1080" />
+    </state>
+    <state x="830" y="-980" width="1170" height="880" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1440.900/-460.-1080.2560.1080@-460.-1080.2560.1080" timestamp="1599741675777" />
+    <state x="380" y="-693" key="com.intellij.ide.util.TipDialog" timestamp="1599739423691">
+      <screen x="-460" y="-1080" width="2560" height="1080" />
+    </state>
+    <state x="380" y="-693" key="com.intellij.ide.util.TipDialog/0.0.1440.900/-460.-1080.2560.1080@-460.-1080.2560.1080" timestamp="1599739423691" />
+    <state x="2280" y="267" key="com.intellij.ide.util.TipDialog/0.0.1440.900/1440.-105.2560.1080@1440.-105.2560.1080" timestamp="1599663466281" />
+    <state x="630" y="372" key="com.intellij.ide.util.TipDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1599611902947" />
+  </component>
+</project>
